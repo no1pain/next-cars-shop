@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1,
+    "name": "Mavericks",
+    "image_path": "/images/car-1.png",
+    "location": "New York, USA",
+    "description": "This is a description for Item 1.",
+    "filters": ["Filter 1", "Filter 2", "Filter 3"],
+    "price": "8000.00$",
+    "rate": 4.5,
+    "reviews": 3
+  },
+  {
+    "id": 2,
+    "name": "Kuga Camper",
+    "image_path": "/images/car-2.png",
+    "location": "London, UK",
+    "description": "This is a description for Item 2.",
+    "filters": ["Filter 2", "Filter 4"],
+    "price": "8000.00$",
+    "rate": 3.8,
+    "reviews": 3
+  },
+  {
+    "id": 3,
+    "name": "Road Bear C 23-25",
+    "image_path": "./images/car-3.png",
+    "location": "Berlin, Germany",
+    "description": "This is a description for Item 3.",
+    "filters": ["Filter 1", "Filter 3", "Filter 5"],
+    "price": "8000.00$",
+    "rate": 4.2,
+    "reviews": 3
+  },
+  {
+    "id": 4,
+    "name": "Mighty Class C Medium [MD]",
+    "image_path": "/images/car-4.png",
+    "location": "Paris, France",
+    "description": "This is a description for Item 4.",
+    "filters": ["Filter 4", "Filter 5"],
+    "price": "8000.00$",
+    "rate": 4.7,
+    "reviews": 3
+  }
+]
