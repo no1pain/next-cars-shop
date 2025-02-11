@@ -1,19 +1,17 @@
-import { typeFiltersInterface } from "@/interfaces/typeFilter.interface";
-
-export const typeFilters: typeFiltersInterface[] = [
+export const typeFilters = [
   {
-    id: "Filter 1",
-    label: "Kitchen",
-    image: "./images/filter-5.svg",
+    id: "van",
+    label: "Van",
+    imageSrc: "./images/van-icon.svg",
   },
   {
-    id: "Filter 2",
-    label: "TV",
-    image: "./images/filter-4.svg",
+    id: "fully-integrated",
+    label: "Fully Integrated",
+    imageSrc: "./images/fully-integrated-icon.svg",
   },
   {
-    id: "Filter 3",
-    label: "Shower/WC",
-    image: "./images/filter-5.svg",
+    id: "alcove",
+    label: "Alcove",
+    imageSrc: "./images/alcove-icon.svg",
   },
 ];

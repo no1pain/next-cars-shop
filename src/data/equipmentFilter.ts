@@ -1,9 +1,12 @@
-import { equipmentFiltersInterface } from "@/interfaces/equipmentFilter.interface";
-
-export const equipmentFilters: equipmentFiltersInterface[] = [
-  { id: "Filter 1", label: "AC", imageSrc: "./images/filter-1.svg" },
-  { id: "Filter 2", label: "Automatic", imageSrc: "./images/filter-2.svg" },
-  { id: "Filter 3", label: "Kitchen", imageSrc: "./images/filter-5.svg" },
-  { id: "Filter 4", label: "TV", imageSrc: "./images/filter-4.svg" },
-  { id: "Filter 5", label: "Shower/WC", imageSrc: "./images/filter-5.svg" },
+export const equipmentFilters = [
+  { id: "ac", label: "AC", imageSrc: "./images/ac-icon.svg" },
+  { id: "kitchen", label: "Kitchen", imageSrc: "./images/kitchen-icon.svg" },
+  { id: "bed-1", label: "1 Bed", imageSrc: "./images/bed-icon.svg" },
+  {
+    id: "automatic",
+    label: "Automatic",
+    imageSrc: "./images/automatic-icon.svg",
+  },
+  { id: "petrol", label: "Petrol", imageSrc: "./images/petrol-icon.svg" },
+  { id: "adults", label: "2 Adults", imageSrc: "./images/adults-icon.svg" },
 ];

@@ -20,10 +20,10 @@ const Filters = () => {
 
       <FilterButtons />
       <h2 className="mt-8 ont-inter text-lg font-semibold leading-6 text-left decoration-underline decoration-skip-ink">
-        Vehicle Equipment
+        Vehicle Type
       </h2>
 
-      <hr className="w-[360px] border-t border-gray-300 mt-[24px]"></hr>
+      <hr className="w-[360px] border-t border-gray-300 mb-6 mt-[24px]"></hr>
 
       <VehicleType />
 
